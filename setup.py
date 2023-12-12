@@ -12,7 +12,7 @@ test_requirements = [
 long_description = open("README.md").read()
 
 setup(
-    name="hbp_neuromorphic_platform",
+    name="ebrains_neuromorphic_platform_admin",
     version="0.11.2",
     packages=["nmpi"],
     package_dir={"nmpi": "nmpi"},
@@ -20,7 +20,7 @@ setup(
     install_requires=requirements,
     author="Andrew P. Davison and Domenico Guarino",
     author_email="andrew.davison@cnrs.fr",
-    description="Client software for the EBRAINS Neuromorphic Computing Platform",
+    description="Client software for administrators of the EBRAINS Neuromorphic Computing Platform",
     long_description=long_description,
     license="License :: OSI Approved :: Apache Software License",
     url="https://github.com/HumanBrainProject/hbp-neuromorphic-client",
